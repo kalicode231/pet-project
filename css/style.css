@@ -44,3 +44,13 @@ a{
 .nav-list li{
     padding: 10px;
 }
+
+#search{
+    width: 250px;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+.search-bar{
+    display: flex;
+}
