@@ -4,10 +4,12 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 .showcase{
@@ -15,4 +17,30 @@ a{
     background-size: cover;
     height: 100vh;
     width: 100%;
+
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list{
+    margin-right: 50px;
+}
+
+.nav-list ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    padding: 10px;
 }
